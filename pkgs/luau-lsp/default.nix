@@ -40,7 +40,7 @@ stdenv.mkDerivation (finalAttrs: {
     license = lib.licenses.mit;
     platforms = lib.platforms.all;
     badPlatforms = lib.platforms.darwin;
-    maintainers = with lib.maintainers; [ eggflaw ];
+    # maintainers = with lib.maintainers; [ eggflaw ];
     mainProgram = "luau-lsp";
   };
 })
